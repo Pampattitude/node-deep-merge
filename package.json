@@ -1,0 +1,22 @@
+{
+  "name": "merge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint --exclude node_modules .",
+    "test": "mocha -S --recursive tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dirreq": "^0.1.3",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "deep-diff": "^0.3.8",
+    "jshint": "^2.9.5",
+    "mocha": "^3.4.2"
+  }
+}
